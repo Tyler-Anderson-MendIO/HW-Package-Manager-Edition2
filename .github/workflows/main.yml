@@ -43,7 +43,7 @@ jobs:
 
     - name: "Running the CLI"
       run: |
-            mend dep --non-interactive --extended --update --scope "Tyler_Package_Manager-HW//${{ github.repository }}_CLI_nogoogle"
+            mend dep --non-interactive --extended --update --scope "Tyler_Package_Manager-HW//${{ github.repository }}_CLI"
       env:
         MEND_USER_KEY: ${{ secrets.USER_KEY }}
         MEND_EMAIL: ${{ secrets.USER_EMAIL }}
