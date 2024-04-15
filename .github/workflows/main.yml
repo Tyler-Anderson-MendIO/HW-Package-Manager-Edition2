@@ -61,5 +61,5 @@ jobs:
         WS_WSS_URL: "${{ secrets.MEND_URL }}/agent"
         LOG_LEVEL: "DEBUG"
         WS_APIKEY: ${{ secrets.API_KEY }}
-        WS_PROJECTNAME: "${{ github.repository }}_includConfigOnly"
+        WS_PROJECTNAME: "${{ github.repository }}_UA"
         WS_PRODUCTNAME: "Tyler_Package_Manager-HW"
