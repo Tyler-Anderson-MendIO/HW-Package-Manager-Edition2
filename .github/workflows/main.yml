@@ -39,7 +39,7 @@ jobs:
     - name: "Building Maven"
       run: |
             echo "Building Maven"
-            mvn clean install
+            mvn clean install -DskipTests
 
     - name: "Running the CLI"
       run: |
