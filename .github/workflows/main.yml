@@ -53,7 +53,6 @@ jobs:
 
     - name: 'Running the UA'  
       run: |
-            echo "gradle.includedConfigurations=runtimeClasspath" >> wss-unified-agent.config
             java -jar wss-unified-agent.jar
       env:
         WS_USERKEY: ${{ secrets.USER_KEY }}
